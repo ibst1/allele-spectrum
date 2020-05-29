@@ -1,1 +1,1 @@
-# Mutation spectrum similarities as indication of CD
+# Mutation spectrum similarities as evidence of common descent
