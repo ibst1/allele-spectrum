@@ -3,4 +3,31 @@
 ## Background
 This analysis was made in preparation of a contribution to a book on evolutionary creation (theistic evolution) vs anti-evolutionary creation ("creationism"). A similar analysis was made by  [Steve Schaffner](https://biologos.org/articles/testing-common-ancestry-its-all-about-the-mutations) in 2017 and then replicated by [EvoGrad](https://evograd.wordpress.com/2019/02/20/human-genetics-confirms-mutations-as-the-drivers-of-diversity-and-evolution/) in 2019. I replicate these analyses here and add some additional data sets as well.
 
-When assessing the genetic evidence for or against common descent, genetic similarities or differences can be a useful tool.
+When evaluating the genetic evidence for or against common descent, genetic similarities such as ERV/LTR can be a useful tool. Howeber, genetic *differences* between organisms may also provide us with data to assess the theory of common descent.
+
+Genetic differences can arise through different means, one of the being point mutations when one base is substituted for another. Twelve substitutions are possible: A → C, A → G, A → T, C → A, C → T, C → G, etc. As explained by [Schaffner](https://biologos.org/articles/testing-common-ancestry-its-all-about-the-mutations), not all substitutions be distinguished from each other since we do not always know which is the ancestral allele or which of the two complementary strands that were actually changed. We can instead group the substitutions in four classes: 1) A ↔ G and C ↔ T; 2) A ↔ C and G ↔ T; 3) C ↔ G; 4) A ↔ T. The substitutions in the first class are called transitions and the other three classes are called transversions.
+
+Transitions are more frequent than transversions. This is due to a similar chemical structure between A and G (they are called [purines](https://en.wikipedia.org/wiki/Purine)), and likewise C and T are chemically similar (called [pyrimidines](https://en.wikipedia.org/wiki/Pyrimidine)). The consequence is that when a substitution occurs during DNA replication, a purine tends to be substituted by a purine and a pyrimidine tends to be substituted by a pyrimidine. In other words, class 1 (transitions) will be more common than the other classes (transversions). If a genetic difference between two indivduals (or species) is due to mutations, we expect to find a pattern of relatively high A/G and C/T diversity.
+
+# Analyses
+## 1. De novo mutations
+One possible way to investigated mutation frequency patterns is by sequencing children and parents and identify de novo mutations (DNMs). Smith et al (2018) compiled data from three studies which included more than 130,000 autosomal DNMs. 
+
+Description of data acquisition ìs in file `DNM_data_download.txt` and extraction of mutation groups is described in `DNM_extract_groups.sh`. When ... 
+
+ are in files This data is extracted analyzed As expected, transitions are more common than transversions (fig. 1, dark bars).
+
+Description of data acqusition and extraction is in file 
+
+## Human genetic diversity
+An alternative method is to look at the genetic diversity in in the human population. This was done in the 1000 genomes project (REF). The results conform to the DNM data - the diversity between A↔G and C↔T are higher than between other bases (fig. 1, medium bars). This is expected if the variation is due to point mutations.
+
+## Great ape diversity
+Finally, we can compare the DNA diversity between different species. The genetic differences will be much bigger than within one species, but if the differences are due to point mutations we expect a similary pattern of the mutation spectrum. REF sequenced the genomes of ... great apes. Filtering on the fixed mutations gives an almost identical resultat to the DNM data and the 1000 genomes data (fig. 1, light bars).
+
+# Results
+Det är också exakt vad vi ser. I figur 7 visas att fördelningen av punktmutationer är likadan mellan arterna som inom den mänskliga arten. Detta är en stark indikation på att de genetiska skillnaderna har uppkommit genom samma mekanism.
+
+## Alternative explanations
+
+# Description of files

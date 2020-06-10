@@ -1,2 +1,0 @@
-Data from Smith et al (2018) available at https://datadryad.org/stash/landing/show?big=showme&id=doi%3A10.5061%2Fdryad.935vc
-Extract to subdirectory DNM
