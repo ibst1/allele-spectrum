@@ -11,7 +11,7 @@ Transitions are more frequent than transversions. This is due to a similar chemi
 
 # Analyses
 ## 1. De novo mutations
-One possible way to investigated mutation frequency patterns is by sequencing children and parents and identify de novo mutations (DNMs). [Smith et al (2018)](https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1007254) compiled data from three studies which included more than 130,000 autosomal DNMs. 
+One possible way to investigated mutation frequency patterns is by sequencing children and parents and identify de novo mutations (DNMs). Smith et al (2018) compiled data from three studies which included more than 130,000 autosomal DNMs. I extracted the mutation classes from this data
 
 Description of data acquisition ìs in file `DNM_data_download.txt` and extraction of mutation groups is described in `DNM_extract_groups.sh`. When ... 
 
@@ -33,4 +33,4 @@ Det är också exakt vad vi ser. I figur 7 visas att fördelningen av punktmutat
 # Description of files
 
 # References
-Smith, Thomas C. A., Peter F. Arndt, and Adam Eyre-Walker. 2018. “Large Scale Variation in the Rate of Germ-Line de Novo Mutation, Base Composition, Divergence and Diversity in Humans.” PLoS Genetics 14 (3): e1007254.
+Smith, Thomas C. A., Peter F. Arndt, and Adam Eyre-Walker. 2018. “Large Scale Variation in the Rate of Germ-Line de Novo Mutation, Base Composition, Divergence and Diversity in Humans.” PLoS Genetics 14 (3): e1007254. [/Link/](https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1007254), [/Data/](https://datadryad.org/stash/landing/show?big=showme&id=doi%3A10.5061%2Fdryad.935vc).
