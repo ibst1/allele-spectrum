@@ -1,5 +1,5 @@
 awk '
-    BEGIN {  }
+    BEGIN { nATCpG=0 }
     { if($7 == "Non-CpG" && (($5 =="A" && $6 =="T") || ($5 =="T" && $6 =="A")))  { ++nATnCpG; ++nAT }
         else if($7 == "CpG" && (($5 =="A" && $6 =="T") || ($5 =="T" && $6 =="A")))  { ++nATCpG; ++nAT }
 
