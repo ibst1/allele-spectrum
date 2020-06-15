@@ -11,15 +11,9 @@ Transitions are more frequent than transversions. This is due to a similar chemi
 
 # Analyses
 ## 1. De novo mutations
-One possible way to investigated mutation frequency patterns is by sequencing children and parents and identify de novo mutations (DNMs). Smith et al (2018) compiled data from three studies which included more than 130,000 autosomal DNMs. I extracted the mutation classes from this data (`DNM_extract_groups.sh`). When C is followed by G (called CpG island), it is more likely to be converted into a T. In other words, C>T transitions in CpG islands will be more common than in non-CpG areas. Since CpG constitute only a minor part of the genome, the overall pattern is the same whether we include them or not: transitions constitute ~65% of all de novo mutations (fig. 2) ![DNM allele frequency spectrum](figures/DNMs.png | width=100).
+One possible way to investigated mutation frequency patterns is by sequencing children and parents and identify de novo mutations (DNMs). Smith et al (2018) compiled data from three studies which included more than 130,000 autosomal DNMs. I extracted the mutation classes from this data (`DNM_extract_groups.sh`). When C is followed by G (called CpG island), it is more likely to be converted into a T. In other words, C>T transitions in CpG islands will be more common than in non-CpG areas. Since CpG constitute only a minor part of the genome, the overall pattern is the same whether we include them or not: transitions constitute ~65% of all de novo mutations. In the following analyses all DNMs are included. ![DNM allele frequency spectrum](figures/DNMs.png).
 
-Description of data acquisition ìs in file `DNM_data_download.txt` and extraction of mutation groups is described in `DNM_extract_groups.sh`. When ... 
-
- are in files This data is extracted analyzed As expected, transitions are more common than transversions (fig. 1, dark bars).
-
-Description of data acqusition and extraction is in file 
-
-## Human genetic diversity
+## 2. Human genetic diversity
 An alternative method is to look at the genetic diversity in in the human population. This was done in the 1000 genomes project (REF). The results conform to the DNM data - the diversity between A↔G and C↔T are higher than between other bases (fig. 1, medium bars). This is expected if the variation is due to point mutations.
 
 ## Great ape diversity
@@ -34,3 +28,5 @@ Det är också exakt vad vi ser. I figur 7 visas att fördelningen av punktmutat
 
 # References
 Smith, Thomas C. A., Peter F. Arndt, and Adam Eyre-Walker. 2018. “Large Scale Variation in the Rate of Germ-Line de Novo Mutation, Base Composition, Divergence and Diversity in Humans.” PLoS Genetics 14 (3): e1007254. [*Link*](https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1007254), [*Data*](https://datadryad.org/stash/landing/show?big=showme&id=doi%3A10.5061%2Fdryad.935vc).
+
+1000 Genomes Project Consortium, Adam Auton, Lisa D. Brooks, Richard M. Durbin, Erik P. Garrison, Hyun Min Kang, Jan O. Korbel, et al. 2015. “A Global Reference for Human Genetic Variation.” Nature 526 (7571): 68–74. [*Link*](https://www.nature.com/articles/nature15393), [*Data*](ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/ALL.wgs.phase3_shapeit2_mvncall_integrated_v5b.20130502.sites.vcf.gz).
