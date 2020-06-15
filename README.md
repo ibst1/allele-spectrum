@@ -14,9 +14,9 @@ Transitions are more frequent than transversions. This is due to a similar chemi
 One possible way to investigated mutation frequency patterns is by sequencing children and parents and identify de novo mutations (DNMs). Smith et al (2018) compiled data from three studies which included more than 130,000 autosomal DNMs. I extracted the mutation classes from this data (`DNM_extract_groups.sh`). When C is followed by G (called CpG island), it is more likely to be converted into a T. In other words, C>T transitions in CpG islands will be more common than in non-CpG areas. Since CpG constitute only a minor part of the genome, the overall pattern is the same whether we include them or not: transitions constitute ~65% of all de novo mutations. In the following analyses all DNMs are included. ![DNM allele frequency spectrum](figures/DNMs.png).
 
 ## 2. Human genetic diversity
-An alternative method is to look at the genetic diversity in in the human population. This was done in the 1000 genomes project (REF). The results conform to the DNM data - the diversity between A↔G and C↔T are higher than between other bases (fig. 1, medium bars). This is expected if the variation is due to point mutations.
+An alternative method is to look at the genetic diversity in in the human population. This was done in the 1000 genomes project (2015). The data is publicly available and the SNP spectrum can be easily extracted. When I did this, the distribution was congruent with the DNM data: A<>G and the C<>T diversity (transitions) are much more common than transversions (fig. 1, medium bars). Once again, this is expected if the diversity is due to mutations.
 
-## Great ape diversity
+## 3. Great ape diversity
 Finally, we can compare the DNA diversity between different species. The genetic differences will be much bigger than within one species, but if the differences are due to point mutations we expect a similary pattern of the mutation spectrum. REF sequenced the genomes of ... great apes. Filtering on the fixed mutations gives an almost identical resultat to the DNM data and the 1000 genomes data (fig. 1, light bars).
 
 # Results
