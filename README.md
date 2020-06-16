@@ -18,10 +18,6 @@ One possible way to investigated mutation frequency patterns is by sequencing ch
   <figcaption>Fig. 1. Excluding CpG islands has a minor effect on the allele frequence spectrum.</figcaption>
 </figure>
 
-ghjgh
-
-![DNM allele frequency spectrum](figures/DNMs.png) *DNM figure*.
-
 ## 2. Human genetic diversity
 An alternative method is to look at the genetic diversity in in the human population. This was done in the 1000 genomes project (2015). The data is publicly available and the SNP spectrum can be easily extracted (`1000genomes_data_download.sh`, `1000genomes_extract_groups.sh`). When I did this, the distribution was congruent with the DNM data: A<>G and the C<>T diversity (transitions) are much more common than transversions (fig. 1, medium bars). Once again, this is expected if the diversity is due to mutations.
 
