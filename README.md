@@ -15,7 +15,7 @@ One possible way to investigated mutation frequency patterns is by sequencing ch
 
 <figure>
   <img src="figures/DNMs.png" alt="my alt text" width=400px/>
-  <figcaption>Fig. 1. Excluding CpG islands has a minor effect on the allele frequence spectrum.</figcaption>
+  <figcaption>***Fig. 1.** Excluding CpG islands has a minor effect on the allele frequence spectrum.*</figcaption>
 </figure>
 
 ## 2. Human genetic diversity
