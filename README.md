@@ -7,6 +7,7 @@ When evaluating the genetic evidence for or against common descent, genetic simi
 
 Genetic differences can arise through different means, one of the being point mutations when one base is substituted for another. Twelve substitutions are possible: A>C, A>G, A>T, C>A, C>T, C>G, etc. As explained by [Schaffner](https://biologos.org/articles/testing-common-ancestry-its-all-about-the-mutations), not all substitutions be distinguished from each other since we do not always know which is the ancestral allele or which of the two complementary strands that were actually changed. We can instead group the substitutions in four classes. The substitutions in the first class are called transitions and the other three classes are called transversions.
 
+
 1. A<>G and C<>T
 1. A<>C and G<>T
 1. C<>G
