@@ -7,13 +7,13 @@ When evaluating the genetic evidence for or against common descent, genetic simi
 
 Genetic differences can arise through different means, one of the being point mutations when one base is substituted for another. Twelve substitutions are possible: A>C, A>G, A>T, C>A, C>T, C>G, etc. As explained by [Schaffner](https://biologos.org/articles/testing-common-ancestry-its-all-about-the-mutations), not all substitutions be distinguished from each other since we do not always know which is the ancestral allele or which of the two complementary strands that were actually changed. We can instead group the substitutions in four classes. The substitutions in the first class are called transitions and the other three classes are called transversions.
 
-1. A<>G and C<>T
 
-2. A<>C and G<>T
-
-3. C<>G
-
-4. A<>T
+1. Transitions
+    - A<>G and C<>T
+1. Transversions
+    - A<>C and G<>T
+    - C<>G
+    - A<>T
 
 Transitions are more frequent than transversions. This is due to a similar chemical structure between A and G (they are called [purines](https://en.wikipedia.org/wiki/Purine)), and likewise C and T are chemically similar (called [pyrimidines](https://en.wikipedia.org/wiki/Pyrimidine)). The consequence is that when a substitution occurs during DNA replication, a purine tends to be substituted by a purine and a pyrimidine tends to be substituted by a pyrimidine. In other words, class 1 (transitions) will be more common than the other classes (transversions). If a genetic difference between two indivduals (or species) is due to mutations, we expect to find a pattern of relatively high A/G and C/T diversity.
 
