@@ -9,9 +9,9 @@ Genetic differences can arise through different means, one of the being point mu
 
 
 1. A<>G and C<>T
-1. A<>C and G<>T
-1. C<>G
-1. A<>T
+2. A<>C and G<>T
+3. C<>G
+4. A<>T
 
 Transitions are more frequent than transversions. This is due to a similar chemical structure between A and G (they are called [purines](https://en.wikipedia.org/wiki/Purine)), and likewise C and T are chemically similar (called [pyrimidines](https://en.wikipedia.org/wiki/Pyrimidine)). The consequence is that when a substitution occurs during DNA replication, a purine tends to be substituted by a purine and a pyrimidine tends to be substituted by a pyrimidine. In other words, class 1 (transitions) will be more common than the other classes (transversions). If a genetic difference between two indivduals (or species) is due to mutations, we expect to find a pattern of relatively high A/G and C/T diversity.
 
