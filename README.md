@@ -17,11 +17,11 @@ Transitions are more frequent than transversions. This is due to a similar chemi
 
 # Analyses
 ## 1. De novo mutations
-One possible way to investigated mutation frequency patterns is by sequencing children and parents and identify de novo mutations (DNMs). Smith et al (2018) compiled data from three studies which included more than 130,000 autosomal DNMs. I extracted the mutation classes from this data. When C is followed by G (called CpG island), it is more likely to be converted into a T. In other words, C>T transitions in CpG islands will be more common than in non-CpG areas. Since CpG constitute only a minor part of the genome, the overall pattern is the same whether we include them or not: transitions constitute ~65% of all de novo mutations. In the following analyses all DNMs are included.
+One possible way to investigat mutation frequency patterns is by sequencing children and parents and identify de novo mutations (DNMs). Smith et al (2018) compiled data from three studies which included more than 130,000 autosomal DNMs. I extracted the mutation classes from this data. When C is followed by G (called CpG island), it is more likely to be converted into a T. In other words, C>T transitions in CpG islands will be more common than in non-CpG areas. Since CpG constitute only a minor part of the genome, the overall pattern is the same whether we include them or not: transitions constitute ~65% of all de novo mutations. In the following analyses all DNMs are included.
 
 <figure>
   <img src="figures/DNMs.png" alt="my alt text" width=400px/>
-  <figcaption>***Fig. 1.** Excluding CpG islands has a minor effect on the allele frequence spectrum.*</figcaption>
+  <figcaption>**Fig. 1. Excluding CpG islands has a minor effect on the allele frequence spectrum.*</figcaption>
 </figure>
 
 ## 2. Human genetic diversity
@@ -32,9 +32,14 @@ Finally, we can compare the DNA diversity between different species, eg the grea
 
 We can analyze the allele frequency spectrum using publically available data. Prado-Martinez (2013) collected and sequenced DNA from 79 great apes representing 5 species (Gorilla, Pan troglodytes, Pan paniscus, Pongo abelii, Pongo pygmaeus) and 9 humans. They identified the sites that are different from the human reference genome. In some cases, individuals within a species will be similar (allele is fixed), in other cases there will be genetic variation within a species (allele is polymorphic). For the 25 Pan troglodytes (chimpanzee) specimens, they identified 25 million fixed sites (script: `chimp_count_fixed.sh`). As before, we can separate the genetic differences in four classes (script: `primates_extract_groups_fixed.sh`, `primates_extract_groups_fixed_helper.sh`). This reveals that A<>G and C<>T diversity is much higher than the other types (file: `outdata/primates_groups.Pan_troglodytes_fixed.tsv`), which is expected if it is a result of transitions.
 
-In fact, if we compare the genetic diversity between chimpanzee and humans with human de novo mutations and total human genetic diversity, the patterns are strikingly similar:
+In fact, if we compare the genetic diversity between chimpanzees and humans with human de novo mutations and total human genetic diversity, the patterns are strikingly similar (fig. 2).
 
+<figure>
+  <img src="figures/.png" alt="my alt text" width=400px/>
+  <figcaption>**Fig. 1. Excluding CpG islands has a minor effect on the allele frequence spectrum.*</figcaption>
+</figure>
 
+Unsurprisingly, the number of fixed sites is higher in primates that are more similiar to humans, ie highest in Pan troglodytes and Pan paniscus, lower in Gorilla and even lower in Pongo, see table 1 in Prado-Martinez (2013). 
 
 similary pattern of the mutation spectrum. REF sequenced the genomes of ... great apes. Filtering on the fixed mutations gives an almost identical resultat to the DNM data and the 1000 genomes data (fig. 1, light bars).
 
