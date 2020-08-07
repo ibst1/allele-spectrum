@@ -1,3 +1,7 @@
+<style>
+  figcaption {color: red}
+</style>
+  
 # Allele spectrum similarities as a signal of common descent
 
 ## Background
@@ -38,6 +42,13 @@ In fact, if we compare the genetic diversity between chimpanzees and humans with
   <img src="figures/DNM+SNP+Pan_fixed.png" alt="DNM, 1000 genomes, Homo/Pan troglodytes (fixed)" width=400px/>
   <figcaption><i><b>Fig. 2.</b> Human de novo mutation data, human genetic variation (from 1000 genomes project) and genetic difference between humans and chimpanzees (fixed alleles) show an almost identical spectrum of differences - a strong indication that the diversity has arisen by similar means.</i></figcaption>
 </figure>
+
+<figure>
+  <img src="figures/DNM+SNP+Pan_all.png" alt="DNM, 1000 genomes, Homo/Pan troglodytes (fixed + polymorphic)" width=400px/>
+  <figcaption><i><b>Fig. 3.</b> Same data as fig. 2, including both fixed and polymorphic alleles in the chimpanzee genome.</i></figcaption>
+</figure>
+
+We get bigger differences when we exclude CpG islands from the DNM data, but the general trend is still the same (fig. 4).
 
 <figure>
   <img src="figures/DNM+SNP+Pan_all.png" alt="DNM, 1000 genomes, Homo/Pan troglodytes (fixed + polymorphic)" width=400px/>
