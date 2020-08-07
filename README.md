@@ -1,7 +1,3 @@
-<style>
-  figcaption {color: red}
-</style>
-  
 # Allele spectrum similarities as a signal of common descent
 
 ## Background
@@ -36,7 +32,7 @@ Finally, we can compare the DNA diversity between different species, eg the grea
 
 We can analyze the allele frequency spectrum using publically available data. Prado-Martinez (2013) collected and sequenced DNA from 79 great apes representing 5 species (Gorilla, Pan troglodytes, Pan paniscus, Pongo abelii, Pongo pygmaeus) and 9 humans. They identified the sites that are different from the human reference genome. In some cases, individuals within a species will be similar (allele is fixed), in other cases there will be genetic variation within a species (allele is polymorphic). For the 25 Pan troglodytes (chimpanzee) specimens, they identified 25 million fixed sites (script: `chimp_count_fixed.sh`). As before, we can separate the genetic differences in four classes (script: `primates_extract_groups_fixed.sh`, `primates_extract_groups_fixed_helper.sh`). This reveals that A<>G and C<>T diversity is much higher than the other types (file: `outdata/primates_groups.Pan_troglodytes_fixed.tsv`), which is expected if it is a result of transitions.
 
-In fact, if we compare the genetic diversity between chimpanzees and humans with human de novo mutations and total human genetic diversity, the patterns are strikingly similar. This is true whether we include only fixed alleles (fig. 2) or both fixed and polymorphic alleles (fig. 3).
+If we compare the genetic diversity between chimpanzees and humans with human de novo mutations and total human genetic diversity, the patterns are strikingly similar (`make_plots.R`). This is true whether we include only fixed alleles (fig. 2) or both fixed and polymorphic alleles (fig. 3).
 
 <figure>
   <img src="figures/DNM+SNP+Pan_fixed.png" alt="DNM, 1000 genomes, Homo/Pan troglodytes (fixed)" width=400px/>
@@ -51,9 +47,13 @@ In fact, if we compare the genetic diversity between chimpanzees and humans with
 We get bigger differences when we exclude CpG islands from the DNM data, but the general trend is still the same (fig. 4).
 
 <figure>
-  <img src="figures/DNM+SNP+Pan_all.png" alt="DNM, 1000 genomes, Homo/Pan troglodytes (fixed + polymorphic)" width=400px/>
-  <figcaption><i><b>Fig. 3.</b> Same data as fig. 2, including both fixed and polymorphic alleles in the chimpanzee genome.</i></figcaption>
+  <img src="figures/DNM.exCpG+SNP+Pan_fixed.png" alt="DNM (excluding CpG islands), 1000 genomes, Homo/Pan troglodytes (fixed)" width=500px/>
+  <figcaption><i><b>Fig. 4.</b> Same data as fig. 2, but excluding CpG islands. The differences are bigger but the general trend is the same.</i></figcaption>
 </figure>
+
+The three different data sets - human de novo mutations, total human genetic variation, and the genetic diversity between humans and chimpanzees, show highly similar allele frequency spectra. This is a strong indication that the genetic variation has arisen by similar means. If the interspecies diversity instead were a result of de novo creation, there would be no reason to expect this congruence between the data.
+
+CpG
 
 Unsurprisingly, the number of fixed sites is higher in primates that are more similiar to humans, ie highest in Pan troglodytes and Pan paniscus, lower in Gorilla and even lower in Pongo, see table 1 in Prado-Martinez (2013). 
 
