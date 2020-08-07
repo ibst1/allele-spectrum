@@ -20,7 +20,7 @@ Transitions are more frequent than transversions. This is due to a similar chemi
 One possible way to investigat mutation frequency patterns is by sequencing children and parents and identify de novo mutations (DNMs). Smith et al (2018) compiled data from three studies which included more than 130,000 autosomal DNMs. I extracted the mutation classes from this data. When C is followed by G (called CpG island), it is more likely to be converted into a T. In other words, C>T transitions in CpG islands will be more common than in non-CpG areas. Since CpG constitute only a minor part of the genome, the overall pattern is the same whether we include them or not: transitions constitute ~65% of all de novo mutations. In the following analyses all DNMs are included.
 
 <figure>
-  <img src="figures/DNMs.png" alt="my alt text" width=400px/>
+  <img src="figures/DNMs.png" alt="my alt text" width=500px/>
   <figcaption><i><b>Fig. 1.</b> Excluding CpG islands has a small effect on the allele frequence spectrum.</i></figcaption>
 </figure>
 
@@ -36,12 +36,12 @@ We can analyze the allele frequency spectrum using publically available data. Pr
 If we compare the genetic diversity between chimpanzees and humans with human de novo mutations and total human genetic diversity, the patterns are strikingly similar (`make_plots.R`). This is true whether we include only fixed alleles (fig. 2) or both fixed and polymorphic alleles (fig. 3).
 
 <figure>
-  <img src="figures/DNM+SNP+Pan_fixed.png" alt="DNM, 1000 genomes, Homo/Pan troglodytes (fixed)" width=400px/>
+  <img src="figures/DNM+SNP+Pan_fixed.png" alt="DNM, 1000 genomes, Homo/Pan troglodytes (fixed)" width=500px/>
   <figcaption><i><b>Fig. 2.</b> Human de novo mutation data, human genetic variation (from 1000 genomes project) and genetic difference between humans and chimpanzees (fixed alleles) show an almost identical spectrum of differences - a strong indication that the diversity has arisen by similar means.</i></figcaption>
 </figure>
 
 <figure>
-  <img src="figures/DNM+SNP+Pan_all.png" alt="DNM, 1000 genomes, Homo/Pan troglodytes (fixed + polymorphic)" width=400px/>
+  <img src="figures/DNM+SNP+Pan_all.png" alt="DNM, 1000 genomes, Homo/Pan troglodytes (fixed + polymorphic)" width=500px/>
   <figcaption><i><b>Fig. 3.</b> Same data as fig. 2, including both fixed and polymorphic alleles in the chimpanzee genome.</i></figcaption>
 </figure>
 
@@ -53,6 +53,8 @@ We get bigger differences when we exclude CpG islands from the DNM data, but the
 </figure>
 
 The three different data sets - human de novo mutations, total human genetic variation, and the genetic diversity between humans and chimpanzees, show highly similar allele frequency spectra. This is a strong indication that the genetic variation has arisen by similar means. If the interspecies diversity instead were a result of de novo creation, there would be no reason to expect this congruence between the data.
+
+
 
 CpG
 
