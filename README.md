@@ -35,8 +35,8 @@ We can analyze the allele frequency spectrum using publically available data. Pr
 In fact, if we compare the genetic diversity between chimpanzees and humans with human de novo mutations and total human genetic diversity, the patterns are strikingly similar (fig. 2).
 
 <figure>
-  <img src="figures/.png" alt="my alt text" width=400px/>
-  <figcaption>**Fig. 1. Excluding CpG islands has a minor effect on the allele frequence spectrum.*</figcaption>
+  <img src="figures/DNM_SNP_Pan_fixed.png" alt="DNM, 1000 genomes, Homo/Pan troglodytes" width=400px/>
+  <figcaption>*Fig. 2. Human de novo mutation data, human genetic variation (from 1000 genomes project) and genetic difference between humans and chimpanzees (fixed alleles) show an almost identical spectrum of differences - a strong indication that the diversity has arisen by similar means.*</figcaption>
 </figure>
 
 Unsurprisingly, the number of fixed sites is higher in primates that are more similiar to humans, ie highest in Pan troglodytes and Pan paniscus, lower in Gorilla and even lower in Pongo, see table 1 in Prado-Martinez (2013). 
