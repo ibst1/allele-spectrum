@@ -21,7 +21,7 @@ One possible way to investigat mutation frequency patterns is by sequencing chil
 
 <figure>
   <img src="figures/DNMs.png" alt="my alt text" width=400px/>
-  <figcaption>**Fig. 1. Excluding CpG islands has a minor effect on the allele frequence spectrum.*</figcaption>
+  <figcaption><i><b>Fig. 1.</b> Excluding CpG islands has a small effect on the allele frequence spectrum.</i></figcaption>
 </figure>
 
 ## 2. Human genetic diversity
@@ -36,7 +36,7 @@ In fact, if we compare the genetic diversity between chimpanzees and humans with
 
 <figure>
   <img src="figures/DNM_SNP_Pan_fixed.png" alt="DNM, 1000 genomes, Homo/Pan troglodytes" width=400px/>
-  <figcaption>*Fig. 2. Human de novo mutation data, human genetic variation (from 1000 genomes project) and genetic difference between humans and chimpanzees (fixed alleles) show an almost identical spectrum of differences - a strong indication that the diversity has arisen by similar means.*</figcaption>
+  <figcaption><i><b>Fig. 2.</b> Human de novo mutation data, human genetic variation (from 1000 genomes project) and genetic difference between humans and chimpanzees (fixed alleles) show an almost identical spectrum of differences - a strong indication that the diversity has arisen by similar means.</i></figcaption>
 </figure>
 
 Unsurprisingly, the number of fixed sites is higher in primates that are more similiar to humans, ie highest in Pan troglodytes and Pan paniscus, lower in Gorilla and even lower in Pongo, see table 1 in Prado-Martinez (2013). 
