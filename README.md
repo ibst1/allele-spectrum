@@ -59,17 +59,19 @@ The three different data sets - human de novo mutations, total human genetic var
 CpG
 -->
 
-Finally, we can compare the other great apes to the human reference genome as well. 
+Finally, we can compare the allele frequency spectrum of the other great apes to the human reference genome. Figure 5 shows only fixed sites and figure 6 shows both fixed and polymorphic sites. The spectra match nicely, indicating that a similar mechanism (point mutations) is responsible for the genetic differences between the species.
 
 <figure>
-  <img src="figures/primates_fixed.png" alt="DNM (excluding CpG islands), 1000 genomes, Homo/Pan troglodytes (fixed)" width=500px/>
-  <figcaption><i><b>Fig. 4.</b> Same data as fig. 2, but excluding CpG islands. The differences are bigger but the general trend is the same.</i></figcaption>
+  <img src="figures/primates_fixed.png" alt="" width=500px/>
+  <figcaption><i><b>Fig. 5.</b> Allele frequency spectrum for the great apes compared two the human reference genome (fixed sites only).</i></figcaption>
 </figure>
 
 <figure>
   <img src="figures/primates_all.png" alt="DNM (excluding CpG islands), 1000 genomes, Homo/Pan troglodytes (fixed)" width=500px/>
-  <figcaption><i><b>Fig. 4.</b> Same data as fig. 2, but excluding CpG islands. The differences are bigger but the general trend is the same.</i></figcaption>
+  <figcaption><i><b>Fig. 6.</b> Allele frequency spectrum for the great apes compared two the human reference genome (fixed and polymorphic sites).</i></figcaption>
 </figure>
+
+Figures 5 and 6 also shows another interesting thing that was pointed out in the Evograd post: Of course, these spectra don’t match perfectly – nothing in biology is so clear cut. Even different human populations have slightly different mutational spectra. Mutation rates do evolve, after all, and this affects the relative rates of the different types of mutations. In fact, mutation spectra actually get slightly more dissimilar between species as the divergence between them increases. For example, the human and chimp spectra are more similar than the human and gorilla spectra, and the human, chimp, and gorilla spectra are more similar to one another than the human and orangutan, or gorilla and orangutan, spectra are (Harris and Pritchard, 2017). Once again, this familiar nested hierarchy pattern emerges from the data, consistent with the prevailing view of the ancestry of humans within the great apes.
 
 
 One interesting thing
@@ -82,7 +84,7 @@ similary pattern of the mutation spectrum. REF sequenced the genomes of ... grea
 Det är också exakt vad vi ser. I figur 7 visas att fördelningen av punktmutationer är likadan mellan arterna som inom den mänskliga arten. Detta är en stark indikation på att de genetiska skillnaderna har uppkommit genom samma mekanism.
 
 ---
-Of course, these spectra don’t match perfectly – nothing in biology is so clear cut. Even different human populations have slightly different mutational spectra. Mutation rates do evolve, after all, and this affects the relative rates of the different types of mutations. In fact, mutation spectra actually get slightly more dissimilar between species as the divergence between them increases. For example, the human and chimp spectra are more similar than the human and gorilla spectra, and the human, chimp, and gorilla spectra are more similar to one another than the human and orangutan, or gorilla and orangutan, spectra are (Harris and Pritchard, 2017). Once again, this familiar nested hierarchy pattern emerges from the data, consistent with the prevailing view of the ancestry of humans within the great apes.
+
 
 ---
 
