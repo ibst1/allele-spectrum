@@ -52,6 +52,7 @@ We get bigger differences when we exclude CpG islands from the DNM data, but the
   <figcaption><i><b>Fig. 4.</b> Same data as fig. 2, but excluding CpG islands. The differences are bigger but the general trend is the same.</i></figcaption>
 </figure>
 
+
 The three different data sets - human de novo mutations, total human genetic variation, and the genetic diversity between humans and chimpanzees, show highly similar allele frequency spectra. This is a strong indication that the genetic variation has arisen by similar means. If the interspecies diversity instead were a result of de novo creation, there would be no reason to expect this congruence between the data.
 
 <!--
@@ -71,30 +72,12 @@ Finally, we can compare the allele frequency spectrum of the other great apes to
   <figcaption><i><b>Fig. 6.</b> Allele frequency spectrum for the great apes compared two the human reference genome (fixed and polymorphic sites).</i></figcaption>
 </figure>
 
-Figures 5 and 6 also shows another interesting thing that was pointed out in the Evograd post: There is a slight difference between the species: the human mutation spectrum is most similar the chimpanzee one, then to bonobo, then to gorilla and orangutan. There is a natural explanation for this. Different species, and even different populations within the same species, often have slightly different allelele frequency spectra. course, these spectra don’t match perfectly – nothing in biology is so clear cut. Even different human populations have slightly different mutational spectra. Mutation rates do evolve, after all, and this affects the relative rates of the different types of mutations. In fact, mutation spectra actually get slightly more dissimilar between species as the divergence between them increases. For example, the human and chimp spectra are more similar than the human and gorilla spectra, and the human, chimp, and gorilla spectra are more similar to one another than the human and orangutan, or gorilla and orangutan, spectra are (Harris and Pritchard, 2017). Once again, this familiar nested hierarchy pattern emerges from the data, consistent with the prevailing view of the ancestry of humans within the great apes.
 
-
-One interesting thing
-
-Unsurprisingly, the number of fixed sites is higher in primates that are more similiar to humans, ie highest in Pan troglodytes and Pan paniscus, lower in Gorilla and even lower in Pongo, see table 1 in Prado-Martinez (2013). 
-
-similary pattern of the mutation spectrum. REF sequenced the genomes of ... great apes. Filtering on the fixed mutations gives an almost identical resultat to the DNM data and the 1000 genomes data (fig. 1, light bars).
-
-# Results
-Det är också exakt vad vi ser. I figur 7 visas att fördelningen av punktmutationer är likadan mellan arterna som inom den mänskliga arten. Detta är en stark indikation på att de genetiska skillnaderna har uppkommit genom samma mekanism.
-
----
-
-
----
-
-## Alternative explanations
-
-# Description of files
-`DNM_extract_groups.sh` Extraction of DNM 
-
+Figures 5 and 6 also shows another interesting thing that was pointed out in the Evograd post: There is a slight difference between the species: the human mutation spectrum is most similar the chimpanzee one, then to bonobo, then to gorilla and orangutan. There is a natural explanation for this: Different species, and even different populations within the same species, often have slightly different allelele frequency spectra. Harris and Pritchard (2017) report that almost every great ape species and human continental group has its own distinctive mutation spectrum. Combine these results with what we see in figures 5 and 6 and the conclusion is all but inevitable: Evolutionary closely related species have a more similar spectrum, while more divergent species have a more dissimilar spectrum. Harris and Pritchard (2017) make a model (fig. 5B) of the evolution of the allele frequency spectrum based on the Prado-Martinez et al. (2013) data, adding to the explanatory power of the common descent hypothesis.
 
 # References
+Harris, Kelley, and Jonathan K. Pritchard. 2017. “Rapid Evolution of the Human Mutation Spectrum.” eLife 6 (April). [*Link*](https://doi.org/10.7554/eLife.24284).
+
 Prado-Martinez, Javier, Peter H. Sudmant, Jeffrey M. Kidd, Heng Li, Joanna L. Kelley, Belen Lorente-Galdos, Krishna R. Veeramah, et al. 2013. “Great Ape Genetic Diversity and Population History.” Nature 499 (7459): 471–75. [*Link*](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3822165), [*Data*](https://eichlerlab.gs.washington.edu/greatape/data/VCFs/SNPs).
 
 Smith, Thomas C. A., Peter F. Arndt, and Adam Eyre-Walker. 2018. “Large Scale Variation in the Rate of Germ-Line de Novo Mutation, Base Composition, Divergence and Diversity in Humans.” PLoS Genetics 14 (3): e1007254. [*Link*](https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1007254), [*Data*](https://datadryad.org/stash/landing/show?big=showme&id=doi%3A10.5061%2Fdryad.935vc).
