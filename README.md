@@ -6,10 +6,10 @@
 When evaluating the genetic evidence for or against common descent, genetic similarities such as endogenous retroviruses (ERVs). Howeber, genetic *differences* between organisms may also provide us with data to assess the theory of common descent. Genetic differences can arise through different means, one of them being point mutations when one base is substituted for another. There are four bases: A, C, G and T, meaning that twelve substitutions are possible: A>C, A>G, A>T, C>A, C>T, C>G, etc. Unfortunately, it is not always possible to say which base has changed into which. For example, if we have the sequences, one with A and one with T, we don't know if A has changed into T or T has changed into A unless we have the sequence of the common ancestor. In addition, DNA is double stranded so that A is always paired with T and G is always paired with C, so we cannot say from only present data which base was mutated. So instead of grouping the mutations into twelve classes, we can group them in four identifiable classes. Mutations within the first class are called transitions and the other three classes are called transversions.
 
 
-1. A<>G, C<>T
-1. A<>C, G<>T
-1. C<>G
-1. A<>T
+1. A<>G, C<>T (transitions)
+1. A<>C, G<>T (transversions)
+1. C<>G (transversions)
+1. A<>T (transversions)
 
 Transitions are more frequent than transversions. This is due to a similar chemical structure between A and G (they are called purines), and likewise C and T are chemically similar (called pyrimidines). The consequence is that when a point mutation occurs during DNA replication, a purine tends to be substituted by a purine and a pyrimidine tends to be substituted by a pyrimidine (figure 1). In other words, class 1 (transitions) will be more common than the other classes (transversions). If a genetic difference between two individuals (or species) is due to mutations, we expect to find a pattern of higher A<>G and C<>T diversity compared to other kinds.
 
@@ -64,7 +64,7 @@ The three different data sets - human de novo mutations, total human genetic var
 CpG
 -->
 
-Finally, we can compare the allele frequency spectrum of the other great apes to the human reference genome. Figure 5 shows only fixed sites and figure 6 shows both fixed and polymorphic sites. The spectra match nicely, indicating that a similar mechanism (point mutations) is responsible for the genetic differences between the species.
+Finally, we can compare the allele frequency spectrum of the other great apes to the human reference genome. Figure 5 shows only fixed sites and figure 6 shows both fixed and polymorphic sites. The spectra match nicely, once again indicating that a similar mechanism is responsible for the genetic differences between the species.
 
 <figure>
   <img src="figures/primates_fixed.png" alt="" width=500px/>
@@ -77,10 +77,13 @@ Finally, we can compare the allele frequency spectrum of the other great apes to
 </figure>
 <br><br>
 
-Figures 5 and 6 also shows another interesting thing that was pointed out in the Evograd post: There is a slight difference between the species: the human mutation spectrum is most similar the chimpanzee one, then to bonobo, then to gorilla and orangutan. There is a natural explanation for this: Different species, and even different populations within the same species, often have slightly different allelele frequency spectra. Harris and Pritchard (2017) report that almost every great ape species and human continental group has its own distinctive mutation spectrum. Combine these results with what we see in figures 5 and 6 and the conclusion is all but inevitable: Evolutionary closely related species have a more similar spectrum, while more divergent species have a more dissimilar spectrum. Harris and Pritchard (2017) make a model (fig. 5B) of the evolution of the allele frequency spectrum based on the Prado-Martinez et al. (2013) data, adding to the explanatory power of the common descent hypothesis.
+Figures 5 and 6 also show another interesting feature that was pointed out in the Evograd post: There is a slight difference between the species: the human mutation spectrum is most similar the chimpanzee one, then to bonobo, then to gorilla and orangutan. There is a natural explanation for this: Different species, and even different populations within the same species, often have slightly different allelele frequency spectra. Harris and Pritchard (2017) report that almost every great ape species and human continental group has its own distinctive mutation spectrum. Figures 5 and 6 indicates that closely related species have a more similar spectrum, while more divergent species have a more dissimilar spectrum. Harris and Pritchard (2017) make a model (fig. 5B) of the evolution of the allele frequency spectrum based on the Prado-Martinez et al. (2013) data, adding to the explanatory power of the common descent hypothesis.
 
 # Conclusions
-We have compared three categories of genetic variation: 1) Human de novo mutations, i.e. the genetic diversity that arises in every new generation; 2) the naturally occurring variation in the human genome; and 3) the types of single nucleotide variations that separate the human and chimpanzee genome. The allele frequency spectra that describe these three categories are highly similar, indicating that a common mechanism is responsible in all three cases. Since we know that human de novo genetic variation is the result of point mutations, the most reasonable conclusion is that point mutations are also responsible for the genetic differences between the great ape species. The theory of creation through common descent thus has a high explanatory power - certainly much higher than the alternative hypothesis that the genomes were individually created. 
+We have compared three categories of genetic variation: 1) Human de novo mutations, i.e. the genetic diversity that arises in every new generation; 2) the naturally occurring variation in the human genome; and 3) the types of single nucleotide variations that separate the human and chimpanzee genome. The allele frequency spectra that describe these three categories are highly similar, indicating that a common mechanism is responsible in all three cases. Since we know that human de novo genetic variation is the result of point mutations, the most reasonable conclusion is that point mutations are also responsible for the genetic differences between the great ape species.
+
+The allele frequency spectrum can be used to differentiate between evolutionary creation/theistic evolution and anti-evolutionary creation. The former theory involves common descent, while the second denies common descent of humans and the great apes. While evolutionary creation gives a natural explanation for the observed data - the interspecies difference is a consequence of the same mechanisms that has genereted the intraspecies variation - anti-evolutionary creation gives us no reason to expect the observed data.
+Evolutionary creation thus has a higher explanatory power than the alternative hypothesis and fits the data more nicely. 
 
 # References
 Harris, Kelley, and Jonathan K. Pritchard. 2017. “Rapid Evolution of the Human Mutation Spectrum.” eLife 6 (April). [*Link*](https://doi.org/10.7554/eLife.24284).
