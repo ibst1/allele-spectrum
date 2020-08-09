@@ -51,7 +51,7 @@ We get bigger differences when we exclude CpG islands from the DNM data, but the
   <img src="figures/DNM.exCpG+SNP+Pan_fixed.png" alt="DNM (excluding CpG islands), 1000 genomes, Homo/Pan troglodytes (fixed)" width=500px/>
   <figcaption><i><b>Fig. 4.</b> Same data as fig. 2, but excluding CpG islands. The differences are bigger but the general trend is the same.</i></figcaption>
 </figure>
-
+<br><br>
 
 The three different data sets - human de novo mutations, total human genetic variation, and the genetic diversity between humans and chimpanzees, show highly similar allele frequency spectra. This is a strong indication that the genetic variation has arisen by similar means. If the interspecies diversity instead were a result of de novo creation, there would be no reason to expect this congruence between the data.
 
@@ -74,6 +74,9 @@ Finally, we can compare the allele frequency spectrum of the other great apes to
 <br><br>
 
 Figures 5 and 6 also shows another interesting thing that was pointed out in the Evograd post: There is a slight difference between the species: the human mutation spectrum is most similar the chimpanzee one, then to bonobo, then to gorilla and orangutan. There is a natural explanation for this: Different species, and even different populations within the same species, often have slightly different allelele frequency spectra. Harris and Pritchard (2017) report that almost every great ape species and human continental group has its own distinctive mutation spectrum. Combine these results with what we see in figures 5 and 6 and the conclusion is all but inevitable: Evolutionary closely related species have a more similar spectrum, while more divergent species have a more dissimilar spectrum. Harris and Pritchard (2017) make a model (fig. 5B) of the evolution of the allele frequency spectrum based on the Prado-Martinez et al. (2013) data, adding to the explanatory power of the common descent hypothesis.
+
+# Conclusions
+We have compared three categories of genetic variation: 1) Human de novo mutations, i.e. the genetic diversity that arises in every new generation; 2) the naturally occurring variation in the human genome; and 3) the types of single nucleotide variations that separate the human and chimpanzee genome. The allele frequency spectra that describe these three categories are highly similar, indicating that a common mechanism is responsible in all three cases. Since we know that human de novo genetic variation is the result of point mutations, the most reasonable conclusion is that point mutations are also responsible for the genetic differences between the great ape species. The theory of creation through common descent thus has a high explanatory power - certainly much higher than the alternative hypothesis that the genomes were individually created. 
 
 # References
 Harris, Kelley, and Jonathan K. Pritchard. 2017. “Rapid Evolution of the Human Mutation Spectrum.” eLife 6 (April). [*Link*](https://doi.org/10.7554/eLife.24284).
