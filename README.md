@@ -14,19 +14,19 @@ When evaluating the genetic evidence for or against common descent, genetic simi
 Transitions are more frequent than transversions. This is due to a similar chemical structure between A and G (they are called purines), and likewise C and T are chemically similar (called pyrimidines). The consequence is that when a point mutation occurs during DNA replication, a purine tends to be substituted by a purine and a pyrimidine tends to be substituted by a pyrimidine (figure 1). In other words, class 1 (transitions) will be more common than the other classes (transversions). If a genetic difference between two individuals (or species) is due to mutations, we expect to find a pattern of higher A<>G and C<>T diversity compared to other kinds.
 
 <figure>
-  <img src="figures/transitions_transversions.png" alt="Transitions and transversions" width=500px/>
+  <img src="figures/transitions_transversions.png" alt="Transitions and transversions" width=350px/>
   <figcaption><i><b>Fig. 1.</b> A and G (purines) and C and T (pyrimidines) respectiviely are similar, so mutations to the same type of base is more common (transitions). Other mutations (transversions) are less common because the bases are more different.</i></figcaption>
 </figure>
 
 # Analyses
 ## 1. De novo mutations
-One possible way to investigate mutation frequency patterns is by sequencing children and parents and identify de novo mutations (DNMs). On average, around 60 point mutations arise every generation (the human mutation rate). This kind of data is publically available from several studies, including from Smith et al (2018) who performed a meta-study including more than 130,000 autosomal DNMs. I extracted the mutation classes from this data. When C is followed by G (called CpG island), it is more likely to be converted into a T. In other words, C>T transitions in CpG islands will be more common than in non-CpG areas. Since CpG constitute only a minor part of the genome, the overall pattern is the same whether we include them or not: transitions constitute ~65% of all de novo mutations. In the following analyses all DNMs are included.
+One possible way to investigate mutation frequency patterns is by sequencing children and parents and identify de novo mutations (DNMs). On average, around 60 point mutations arise every generation (the human mutation rate). This kind of data is publically available from several studies, including from Smith et al (2018) who performed a meta-study including more than 130,000 autosomal DNMs. We can extract the mutation classes from this data with a simplex script (`DNM_extract_groups.sh`).<!-- When C is followed by G (called CpG island), it is more likely to be converted into a T. In other words, C>T transitions in CpG islands will be more common than in non-CpG areas. Since CpG constitute only a minor part of the genome, the overall pattern is the same whether we include them or not: transitions constitute ~65% of all de novo mutations. In the following analyses all DNMs are included.
 
 <figure>
   <img src="figures/DNMs.png" alt="my alt text" width=500px/>
   <figcaption><i><b>Fig. 1.</b> Excluding CpG islands has a small effect on the allele frequence spectrum.</i></figcaption>
 </figure>
-
+-->
 ## 2. Human genetic diversity
 An alternative method is to look at the genetic diversity in in the human population. This was done in the 1000 genomes project (2015). The data is publicly available and the SNP spectrum can be easily extracted (`1000genomes_data_download.sh`, `1000genomes_extract_groups.sh`). When I did this, the distribution was congruent with the DNM data: A<>G and the C<>T diversity (transitions) are much more common than transversions (fig. 1, medium bars). Once again, this is expected if the diversity is due to mutations.
 
