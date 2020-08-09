@@ -54,9 +54,25 @@ We get bigger differences when we exclude CpG islands from the DNM data, but the
 
 The three different data sets - human de novo mutations, total human genetic variation, and the genetic diversity between humans and chimpanzees, show highly similar allele frequency spectra. This is a strong indication that the genetic variation has arisen by similar means. If the interspecies diversity instead were a result of de novo creation, there would be no reason to expect this congruence between the data.
 
-
+<!--
 
 CpG
+-->
+
+Finally, we can compare the other great apes to the human reference genome as well. 
+
+<figure>
+  <img src="figures/primates_fixed.png" alt="DNM (excluding CpG islands), 1000 genomes, Homo/Pan troglodytes (fixed)" width=500px/>
+  <figcaption><i><b>Fig. 4.</b> Same data as fig. 2, but excluding CpG islands. The differences are bigger but the general trend is the same.</i></figcaption>
+</figure>
+
+<figure>
+  <img src="figures/primates_all.png" alt="DNM (excluding CpG islands), 1000 genomes, Homo/Pan troglodytes (fixed)" width=500px/>
+  <figcaption><i><b>Fig. 4.</b> Same data as fig. 2, but excluding CpG islands. The differences are bigger but the general trend is the same.</i></figcaption>
+</figure>
+
+
+One interesting thing
 
 Unsurprisingly, the number of fixed sites is higher in primates that are more similiar to humans, ie highest in Pan troglodytes and Pan paniscus, lower in Gorilla and even lower in Pongo, see table 1 in Prado-Martinez (2013). 
 
