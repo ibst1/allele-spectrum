@@ -1,7 +1,7 @@
 # Allele spectrum similarities as a signal of common descent
 
 ## Background
-    This analysis was made in preparation of a contribution to a book on evolutionary creation (theistic evolution) vs anti-evolutionary creation ("creationism"). It was inspired a similar analysis made by  [Steve Schaffner](https://biologos.org/articles/testing-common-ancestry-its-all-about-the-mutations) in 2017 which was replicated by [EvoGrad](https://evograd.wordpress.com/2019/02/20/human-genetics-confirms-mutations-as-the-drivers-of-diversity-and-evolution/) in 2019.
+> This analysis was made in preparation of a contribution to a book on evolutionary creation (theistic evolution) vs anti-evolutionary creation ("creationism"). It was inspired a similar analysis made by  [Steve Schaffner](https://biologos.org/articles/testing-common-ancestry-its-all-about-the-mutations) in 2017 which was replicated by [EvoGrad](https://evograd.wordpress.com/2019/02/20/human-genetics-confirms-mutations-as-the-drivers-of-diversity-and-evolution/) in 2019.
 
 When evaluating the genetic evidence for or against common descent, genetic similarities such as ERV/LTR can be a useful tool. Howeber, genetic *differences* between organisms may also provide us with data to assess the theory of common descent.
 
